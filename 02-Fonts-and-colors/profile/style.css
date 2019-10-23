@@ -1,0 +1,59 @@
+/* Colors and fonts */
+@import url("http://fonts.googleapis.com/css?family=Jomolhari|Open+Sans:400,300,700|Poppins:100&display=swap|Poppins:100&display=swap");
+
+body {
+  background: #e8e8e8;
+  color: #0a0a1f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; /* if you want the light version */
+  font-size: 17px;
+  line-height: 17px
+  margin-left: 50px;
+}
+body {
+
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  color: #f54242;
+  font-family: 'Jomolhari', serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 54px
+}
+h2 {
+  color: #f54242;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+  line-height: 20px
+}
+h3 {
+  color: #0a0a1f;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px
+
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #f54242;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.img-circle {
+  border-radius:50%;
+}
+.shadowed {
+  box-shadow: 3px 3px 0 #0a0a1f
+}
